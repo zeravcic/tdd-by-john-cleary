@@ -14,7 +14,7 @@ namespace Zeravcic\TddByJohnCleary\Test\Day01;
 
 use Zeravcic\TddByJohnCleary\Day01\CalcStats;
 
-require_once __DIR__ . "/../../src/day01/CalcStats.php";
+// require_once __DIR__ . "/../../src/day01/CalcStats.php";
 
 
 /**
