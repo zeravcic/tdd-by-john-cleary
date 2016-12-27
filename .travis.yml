@@ -29,7 +29,7 @@ script:
   - phpunit --configuration phpunit.xml --debug
   - phpunit
   - php -r 'echo __DIR__ . "\n";print_r(scandir(__DIR__));'
-    - php -r 'echo file_get_contents(__DIR__ . "/vendor/autoload.php");'
+  - php -r 'echo file_get_contents(__DIR__ . "/vendor/autoload.php");'
 
 after_script:
   #- php vendor/bin/coveralls -v
