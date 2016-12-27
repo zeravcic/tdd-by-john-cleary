@@ -4,10 +4,10 @@ language: php
 php:
 #  - '5.4'
 #  - '5.5'
-#  - '5.6'
+  - '5.6'
   - '7.0'
-#  - hhvm
-#  - nightly
+  - hhvm
+  - nightly
 
 sudo: false
 
@@ -16,46 +16,20 @@ matrix:
   allow_failures:
     - php: hhvm
 
-#cache:
-#  directories:
-#    - laravel
-
-services: mysql
-
-#mysql:
-#  database: bytenet2_test_db
-#  username: root
-#  encoding: utf8mb4
-
 before_script:
-  - export GITHUB_NAME=ByteNet-Serbia
-  - export GITHUB_PACKAGE=tdd_by_jonh-cleary
-  - export COMPOSER_NAME=bytenet
-  - export COMPOSER_PACKAGE=$GITHUB_PACKAGE
-  - composer self-update
-  #- composer create-project laravel/laravel
-  - composer create-project --prefer-dist laravel/laravel laravel
-  - cd ./laravel
-  - composer config repositories.$COMPOSER_NAME vcs https://github.com/$GITHUB_NAME/$GITHUB_PACKAGE.git
-  - composer require $COMPOSER_NAME/$GITHUB_PACKAGE dev-master
-  - composer update
-  - rm ./.env
-  - cp ./vendor/$COMPOSER_NAME/$GITHUB_PACKAGE/tests/.env ./.env # set specific testing values
-  - rm ./config/app.php
-  - cp ./vendor/$COMPOSER_NAME/$GITHUB_PACKAGE/tests/app.php ./config # set Package Service Provider(s)
-  - php artisan vendor:publish
-  - mysql -e "create database IF NOT EXISTS test;" -uroot
-  #- php artisan migrate --seed #setups the migrations and seeding
-  - php artisan migrate
+  - composer install
+  #- find . -type f -name *.csv -exec chmod 777 {} +
+  - mkdir build
+  #- composer update
 
 #script: phpunit tests/*
 script:
   #script to setup the package for testing
-  - ./vendor/bin/phpunit "./vendor/${COMPOSER_NAME}/$GITHUB_PACKAGE" #runs the phpunit just for your package
+  - phpunit --configuration phpunit.xml --debug
   - php -r 'echo __DIR__ . "\n";print_r(scandir(__DIR__));'
-  - php -r 'echo file_get_contents("./.env");'
-  - php -r 'echo file_get_contents("./config/app.php");'
-  - php -r 'print_r(scandir(__DIR__ . "/vendor"));'
 
-notifications:
-  email: false
+after_script:
+  - php vendor/bin/coveralls -v
+
+#notifications:
+#  email: false

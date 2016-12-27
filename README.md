@@ -1,4 +1,4 @@
-# tdd_by_john-cleary
+# TDDs By John Cleary
 
 ## 12 TDDS OF CHRISTMAS
 
