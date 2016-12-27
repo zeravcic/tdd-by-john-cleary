@@ -10,8 +10,4 @@
  * @link    http://nikolazeravcic.iz.rs Personal site
  */
 
-inlu
-
-return [
-
-];
+require 'vendor/autoload.php';
