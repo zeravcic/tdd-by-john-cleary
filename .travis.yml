@@ -26,7 +26,7 @@ before_script:
 #script: phpunit tests/*
 script:
   #script to setup the package for testing
-  - vendor/phpunit/phpunit/phpunit --configuration phpunit.xml --debug
+  - phpunit --configuration phpunit.xml --debug
   - phpunit
   - php -r 'echo __DIR__ . "\n";print_r(scandir(__DIR__));'
 
