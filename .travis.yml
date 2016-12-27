@@ -18,7 +18,7 @@ matrix:
 
 before_script:
   #- composer update
-  - composer install --dev
+  - composer install --prefer-dist --no-interaction
   #- find . -type f -name *.csv -exec chmod 777 {} +
   #- mkdir build
 

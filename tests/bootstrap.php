@@ -10,6 +10,4 @@
  * @link    http://nikolazeravcic.iz.rs Personal site
  */
 
-echo file_get_contents(__DIR__ . "/day01/CalcStatsTest.php");
-
 require 'vendor/autoload.php';
