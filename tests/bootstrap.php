@@ -10,12 +10,6 @@
  * @link    http://nikolazeravcic.iz.rs Personal site
  */
 
+return [
 
-error_reporting(E_ALL);
-
-?>
-
-<h1>TTDs By John Cleary</h1>
-
-<p><em>You can set testing code here</em></p>
-
+];
