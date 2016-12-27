@@ -10,9 +10,9 @@
  * @link    http://nikolazeravcic.iz.rs Personal site
  */
 
-namespace Zeravcic\TddByJohnCleary\Tests\Day01;
+namespace Zeravcic\TddByJohnCleary\Tests\day01;
 
-use Zeravcic\TddByJohnCleary\Day01\CalcStats;
+use Zeravcic\TddByJohnCleary\day01\CalcStats;
 
 // require_once __DIR__ . "/../../src/day01/CalcStats.php";
 
