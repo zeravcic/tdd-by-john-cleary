@@ -11,7 +11,7 @@
     "John Cleary"
   ],
   "minimum-stability": "stable",
-  "homepage": "https://github.com/ByteNet-Serbia/tdd_by_john-cleary",
+  "homepage": "https://github.com/Zeravcic/tdd_by_john-cleary",
   "license": "MIT",
   "authors": [
     {
@@ -29,12 +29,12 @@
   },
   "autoload": {
     "psr-4": {
-      "ByteNet\\TddByJohnCleary\\": "src"
+      "Zeravcic\\TddByJohnCleary\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "ByteNet\\TddByJohnCleary\\Test\\": "tests"
+      "Zeravcic\\TddByJohnCleary\\Test\\": "tests"
     }
   },
   "scripts": {
