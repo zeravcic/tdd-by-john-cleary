@@ -17,15 +17,17 @@ matrix:
     - php: hhvm
 
 before_script:
+  #- composer update
   - composer install
   #- find . -type f -name *.csv -exec chmod 777 {} +
-  - mkdir build
-  #- composer update
+  #- mkdir build
+
 
 #script: phpunit tests/*
 script:
   #script to setup the package for testing
-  - phpunit --configuration phpunit.xml --debug
+  - vendor/phpunit/phpunit/phpunit --configuration phpunit.xml --debug
+  - phpunit
   - php -r 'echo __DIR__ . "\n";print_r(scandir(__DIR__));'
 
 after_script:
