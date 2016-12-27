@@ -10,4 +10,4 @@
  * @link    http://nikolazeravcic.iz.rs Personal site
  */
 
-require __DIR__ . '/../vendor/autoload.php';
+require 'vendor/autoload.php';

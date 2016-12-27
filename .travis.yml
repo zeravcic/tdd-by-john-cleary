@@ -28,10 +28,10 @@ script:
   #script to setup the package for testing
   - phpunit --configuration phpunit.xml --debug
   - phpunit
-  - php -r 'echo __DIR__ . "/vendor\n";print_r(scandir(__DIR__ . "/vendor"));'
+  - php -r 'echo __DIR__ . "\n";print_r(scandir(__DIR__));'
 
 after_script:
-  - php vendor/bin/coveralls -v
+  #- php vendor/bin/coveralls -v
 
-#notifications:
-#  email: false
+notifications:
+  email: false
