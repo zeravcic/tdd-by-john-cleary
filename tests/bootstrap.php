@@ -10,4 +10,5 @@
  * @link    http://nikolazeravcic.iz.rs Personal site
  */
 
-require 'vendor/autoload.php';
+// Needed for isolated tests
+require __DIR__ . '/../vendor/autoload.php';
