@@ -29,8 +29,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Zeravcic\\TddByJohnCleary\\": "src/",
-      "Zeravcic\\TddByJohnCleary\\Test\\": "tests/"
+      "Zeravcic\\TddByJohnCleary\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Zeravcic\\TddByJohnCleary\\Tests\\": "tests"
     }
   },
   "scripts": {
