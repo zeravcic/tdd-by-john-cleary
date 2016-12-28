@@ -5,14 +5,20 @@ All Notable changes to `bytenet\laravel-admn-base` project will be documented in
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## [Unreleased] - 2016-12-27
+## [0.1.1] - 2016-12-28
 ### Changed
-- tests/bootstrap.php
 - .travis.yml file
+- CHANGELOG.md
+- README.md
+- composer.json 
+- phpunit.xml
+- src/index.php 
+- src/day01/CalcStats.php
+- tests/day01/CalcStatsTest.php 
+- tests/bootstrap.php
 
 ## 0.1.0 - 2016-12-27
 ### Added
 -  Day-01 - SRC and TEST
 
-
-[Unreleased]: https://github.com/zeravcic/tdd_by_john-cleary/compare/v0.1.0...HEAD
+[0.1.1]: https://github.com/zeravcic/tdd_by_john-cleary/compare/v0.1.0...v0.1.1
