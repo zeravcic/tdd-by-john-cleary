@@ -26,7 +26,7 @@ before_script:
 #script: phpunit tests/*
 script:
   #script to setup the package for testing
-  - phpunit --configuration phpunit.xml --debug  --coverage-text
+  - phpunit --configuration phpunit.xml
   #- php -r 'echo __DIR__ . "\n";print_r(scandir(__DIR__));'
 
 after_script:
