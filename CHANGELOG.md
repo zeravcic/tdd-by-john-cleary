@@ -11,6 +11,9 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 - src/day02/NumberNames.php
 - tests/day02/NumberNamesTest.php
 
+### Changed
+- .travis.yml
+
 ## [0.1.1] - 2016-12-28
 ### Changed
 - .travis.yml file

@@ -16,6 +16,10 @@ matrix:
   allow_failures:
     - php: hhvm
 
+cache:
+  directories:
+    - vendor
+
 before_script:
   #- composer update
   - composer install --prefer-dist --no-interaction
