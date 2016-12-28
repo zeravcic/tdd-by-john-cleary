@@ -27,7 +27,7 @@ before_script:
 script:
   #script to setup the package for testing
   - phpunit --configuration phpunit.xml --debug  --coverage-text
-  - php -r 'echo __DIR__ . "\n";print_r(scandir(__DIR__));'
+  #- php -r 'echo __DIR__ . "\n";print_r(scandir(__DIR__));'
 
 after_script:
   #- php vendor/bin/coveralls -v
