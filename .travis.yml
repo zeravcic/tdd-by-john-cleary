@@ -18,7 +18,7 @@ matrix:
 
 cache:
   directories:
-    - vendor
+    - $HOME/.composer/cache
 
 before_script:
   #- composer update
