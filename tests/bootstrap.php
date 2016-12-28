@@ -13,4 +13,8 @@
 // Needed for isolated tests
 //require __DIR__ . '/../vendor/autoload.php';
 
-require 'vendor/autoload.php';
+//require 'vendor/autoload.php';
+
+return [
+    
+];
