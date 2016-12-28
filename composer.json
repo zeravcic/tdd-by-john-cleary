@@ -1,15 +1,17 @@
 {
-  "name": "bytenet/tdd_by_john-cleary",
+  "name": "zeravcic/tdd_by_john-cleary",
   "type": "library",
   "description": "12 TDDS OF CHRISTMAS - http://www.wiredtothemoon.com/2012/12/12-tdds-of-christmas/",
   "keywords": [
+    "zeravcic",
     "bytenet",
     "TDD",
     "tests",
-    "Test Driven Development"
+    "Test Driven Development",
+    "John Cleary"
   ],
   "minimum-stability": "stable",
-  "homepage": "https://github.com/ByteNet-Serbia/tdd_by_john-cleary",
+  "homepage": "https://github.com/Zeravcic/tdd_by_john-cleary",
   "license": "MIT",
   "authors": [
     {
@@ -23,16 +25,16 @@
     "php" : "~5.5|~7.0"
   },
   "require-dev": {
-    "phpunit/phpunit" : "4.*"
+    "phpunit/phpunit" : "5.*"
   },
   "autoload": {
     "psr-4": {
-      "ByteNet\\TddByJohnCleary\\": "src"
+      "Zeravcic\\TddByJohnCleary\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "ByteNet\\TddByJohnCleary\\Test\\": "tests"
+      "Zeravcic\\TddByJohnCleary\\Tests\\": "tests"
     }
   },
   "scripts": {

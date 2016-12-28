@@ -11,7 +11,7 @@
  */
 
 
-namespace Zeravcic\TddByJohnCleary\Day01;
+namespace Zeravcic\TddByJohnCleary\day01;
 
 
 /**
