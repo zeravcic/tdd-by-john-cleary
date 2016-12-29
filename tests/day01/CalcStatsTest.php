@@ -4,7 +4,7 @@
  *
  * PHP version 5.6, 7
  *
- * @package Zeravcic\TddByJohnCleary\Test\Day01
+ * @package Zeravcic\TddByJohnCleary\Test\day01
  * @author  Nikola Zeravcic <niks986@gmail.com>
  * @license <http://opensource.org/licenses/gpl-license.php GPL
  * @link    http://nikolazeravcic.iz.rs Personal site
@@ -21,11 +21,11 @@ use Zeravcic\TddByJohnCleary\day01\CalcStats;
 /**
  * Class CalcStatsTest
  *
- * @package Zeravcic\TddByJohnCleary\Test\Day01
+ * @package Zeravcic\TddByJohnCleary\Test\day01
  * @author  Nikola Zeravcic <niks986@gmail.com>
  * @license <http://opensource.org/licenses/gpl-license.php GPL
  * @link    http://nikolazeravcic.iz.rs Personal site
- * @see     Zeravcic\TddByJohnCleary\Day01\CalcStats::class
+ * @see     Zeravcic\TddByJohnCleary\day01\CalcStats::class
  */
 class CalcStatsTest extends \PHPUnit_Framework_TestCase
 {

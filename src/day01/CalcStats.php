@@ -4,7 +4,7 @@
  *
  * PHP version 5.6, 7
  *
- * @package Zeravcic\TddByJohnCleary\Test\Day01
+ * @package Zeravcic\TddByJohnCleary\day01
  * @author  Nikola Zeravcic <niks986@gmail.com>
  * @license <http://opensource.org/licenses/gpl-license.php GPL
  * @link    http://nikolazeravcic.iz.rs Personal site
@@ -17,11 +17,11 @@ namespace Zeravcic\TddByJohnCleary\day01;
 /**
  * Class CalcStats
  *
- * @package Zeravcic\TddByJohnCleary\Day01
+ * @package Zeravcic\TddByJohnCleary\day01
  * @author  Nikola Zeravcic <niks986@gmail.com>
  * @license <http://opensource.org/licenses/gpl-license.php GPL
  * @link    http://nikolazeravcic.iz.rs Personal site
- * @see     Zeravcic\TddByJohnCleary\Day01\Test\CalcStats::class
+ * @see     Zeravcic\TddByJohnCleary\day01\Test\CalcStats::class
  */
 class CalcStats
 {
