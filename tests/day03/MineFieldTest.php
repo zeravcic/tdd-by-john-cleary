@@ -4,7 +4,7 @@
  *
  * PHP version 5.6, 7
  *
- * @package Zeravcic\TddByJohnCleary\Test\Day03
+ * @package Zeravcic\TddByJohnCleary\Test\day03
  * @author  Nikola Zeravcic <niks986@gmail.com>
  * @license <http://opensource.org/licenses/gpl-license.php GPL
  * @link    http://nikolazeravcic.iz.rs Personal site
@@ -21,11 +21,11 @@ use Zeravcic\TddByJohnCleary\day03\MineField;
 /**
  * Class MineFieldTest
  *
- * @package Zeravcic\TddByJohnCleary\Test\Day03
+ * @package Zeravcic\TddByJohnCleary\Test\day03
  * @author  Nikola Zeravcic <niks986@gmail.com>
  * @license <http://opensource.org/licenses/gpl-license.php GPL
  * @link    http://nikolazeravcic.iz.rs Personal site
- * @see     Zeravcic\TddByJohnCleary\Day03\MineField::class
+ * @see     Zeravcic\TddByJohnCleary\day03\MineField::class
  */
 class MineFieldTest extends \PHPUnit_Framework_TestCase
 {

@@ -4,7 +4,7 @@
  *
  * PHP version 5.6, 7
  *
- * @package Zeravcic\TddByJohnCleary\Test\Day03
+ * @package Zeravcic\TddByJohnCleary\day03
  * @author  Nikola Zeravcic <niks986@gmail.com>
  * @license <http://opensource.org/licenses/gpl-license.php GPL
  * @link    http://nikolazeravcic.iz.rs Personal site
@@ -17,11 +17,11 @@ namespace Zeravcic\TddByJohnCleary\day03;
 /**
  * Class MineField
  *
- * @package Zeravcic\TddByJohnCleary\Day03
+ * @package Zeravcic\TddByJohnCleary\day03
  * @author  Nikola Zeravcic <niks986@gmail.com>
  * @license <http://opensource.org/licenses/gpl-license.php GPL
  * @link    http://nikolazeravcic.iz.rs Personal site
- * @see     Zeravcic\TddByJohnCleary\Day03\Test\MineFieldTest::class
+ * @see     Zeravcic\TddByJohnCleary\day03\Test\MineFieldTest::class
  */
 class MineField
 {

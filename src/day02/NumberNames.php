@@ -4,7 +4,7 @@
  *
  * PHP version 5.6, 7
  *
- * @package Zeravcic\TddByJohnCleary\Test\Day02
+ * @package Zeravcic\TddByJohnCleary\day02
  * @author  Nikola Zeravcic <niks986@gmail.com>
  * @license <http://opensource.org/licenses/gpl-license.php GPL
  * @link    http://nikolazeravcic.iz.rs Personal site
@@ -17,11 +17,11 @@ namespace Zeravcic\TddByJohnCleary\day02;
 /**
  * Class NumberNames
  *
- * @package Zeravcic\TddByJohnCleary\Day02
+ * @package Zeravcic\TddByJohnCleary\day02
  * @author  Nikola Zeravcic <niks986@gmail.com>
  * @license <http://opensource.org/licenses/gpl-license.php GPL
  * @link    http://nikolazeravcic.iz.rs Personal site
- * @see     Zeravcic\TddByJohnCleary\Day02\Test\NumberNamesTest::class
+ * @see     Zeravcic\TddByJohnCleary\day02\Test\NumberNamesTest::class
  */
 class NumberNames
 {
