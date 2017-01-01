@@ -29,8 +29,8 @@ If you discover any security related issues, please email niks986@gmail.com inst
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
 [ico-license]: https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square
-[ico-travis]: https://api.travis-ci.org/zeravcic/tdd_by_john-cleary.svg?branch=master
+[ico-travis]: https://api.travis-ci.org/zeravcic/tdd-by-john-cleary.svg?branch=master
 
-[link-travis]: https://travis-ci.org/zeravcic/tdd_by_john-cleary.svg
+[link-travis]: https://travis-ci.org/zeravcic/tdd-by-john-cleary.svg
 [link-author]: https://github.com/zeravcic
 [link-contributors]: ../../contributors
