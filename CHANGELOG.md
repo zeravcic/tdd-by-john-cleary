@@ -1,9 +1,17 @@
 # Change Log
 
-All Notable changes to `bytenet\laravel-admn-base` project will be documented in this file.
+All Notable changes to `zeravcic\tdd-by-john-cleary` project will be documented in this file.
 
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
+
+## [0.4.1] - 2017-01-02
+### Changed
+- old package name was `zeravcic\tdd_by_john-cleary`, new package name is `zeravcic\tdd-by-john-cleary` \[TDD problem with underscore (_) char\]
+- composer.json
+- phpunit.xml file
+- test/bootstrap.php
+- test/day04/MontyHallTest.php
 
 ## [0.4.0] - 2016-12-29
 ### Added
@@ -44,7 +52,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 ### Added
 -  Day-01 - SRC and TEST
 
-[0.4.0]: https://github.com/zeravcic/tdd_by_john-cleary/compare/v0.3.0...v0.4.0
-[0.3.0]: https://github.com/zeravcic/tdd_by_john-cleary/compare/v0.2.0...v0.3.0
-[0.2.0]: https://github.com/zeravcic/tdd_by_john-cleary/compare/v0.1.1...v0.2.0
-[0.1.1]: https://github.com/zeravcic/tdd_by_john-cleary/compare/v0.1.0...v0.1.1
+[0.4.1]: https://github.com/zeravcic/tdd-by-john-cleary/compare/v0.4.0...v0.4.1
+[0.4.0]: https://github.com/zeravcic/tdd-by-john-cleary/compare/v0.3.0...v0.4.0
+[0.3.0]: https://github.com/zeravcic/tdd-by-john-cleary/compare/v0.2.0...v0.3.0
+[0.2.0]: https://github.com/zeravcic/tdd-by-john-cleary/compare/v0.1.1...v0.2.0
+[0.1.1]: https://github.com/zeravcic/tdd-by-john-cleary/compare/v0.1.0...v0.1.1
