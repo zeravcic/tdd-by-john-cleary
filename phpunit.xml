@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<phpunit
-         bootstrap="tests/bootstrap.php">
+<phpunit bootstrap="tests/bootstrap.php"
+         backupGlobals="false"
+         verbose="true">
     <testsuites>
         <testsuite name="TDDs Test Suite">
             <directory>./tests/</directory>
@@ -11,5 +12,4 @@
             <directory suffix=".php">app/</directory>
         </whitelist>
     </filter>
-
 </phpunit>

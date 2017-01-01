@@ -14,6 +14,7 @@ namespace Zeravcic\TddByJohnCleary\Tests\day04;
 
 use Zeravcic\TddByJohnCleary\day04\MontyHall;
 use Zeravcic\TddByJohnCleary\day04\MontyHallStrategy;
+use PHPUnit\Framework\TestCase;
 
 // require_once __DIR__ . "/../../src/day04/MontyHall.php";
 // require_once __DIR__ . "/../../src/day04/MontyHallStrategy.php";
@@ -30,7 +31,7 @@ use Zeravcic\TddByJohnCleary\day04\MontyHallStrategy;
  * @link    http://nikolazeravcic.iz.rs Personal site
  * @see     Zeravcic\TddByJohnCleary\day04\MontyHall::class
  */
-class MontyHallTest extends \PHPUnit_Framework_TestCase
+class MontyHallTest extends TestCase
 {
     /**
      * Test that player must pick the door first
