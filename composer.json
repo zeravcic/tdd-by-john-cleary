@@ -1,5 +1,5 @@
 {
-  "name": "zeravcic/tdd_by_john-cleary",
+  "name": "zeravcic/tdd-by-john-cleary",
   "type": "library",
   "description": "12 TDDS OF CHRISTMAS - http://www.wiredtothemoon.com/2012/12/12-tdds-of-christmas/",
   "keywords": [
@@ -11,7 +11,7 @@
     "John Cleary"
   ],
   "minimum-stability": "stable",
-  "homepage": "https://github.com/Zeravcic/tdd_by_john-cleary",
+  "homepage": "https://github.com/Zeravcic/tdd-by-john-cleary",
   "license": "MIT",
   "authors": [
     {
