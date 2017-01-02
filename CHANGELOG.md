@@ -5,6 +5,17 @@ All Notable changes to `zeravcic\tdd-by-john-cleary` project will be documented 
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [0.6.0] - 2017-01-02
+### Added
+- src/day06/README.md
+- src/day06/DuplicateItemException.php
+- src/day06/EmptyItemException.php
+- src/day06/RecentlyUsedList.php
+- tests/day06/RecentlyUsedListTest.php
+
+### Changed
+- src/day05/README.md
+
 ## [0.5.0] - 2017-01-02
 ### Added
 - src/day05/README.md
@@ -58,6 +69,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 ### Added
 -  Day-01 - SRC and TEST
 
+[0.6.0]: https://github.com/zeravcic/tdd-by-john-cleary/compare/v0.5.0...v0.6.0
 [0.5.0]: https://github.com/zeravcic/tdd-by-john-cleary/compare/v0.4.1...v0.5.0
 [0.4.1]: https://github.com/zeravcic/tdd-by-john-cleary/compare/v0.4.0...v0.4.1
 [0.4.0]: https://github.com/zeravcic/tdd-by-john-cleary/compare/v0.3.0...v0.4.0
