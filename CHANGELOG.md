@@ -5,6 +5,12 @@ All Notable changes to `zeravcic\tdd-by-john-cleary` project will be documented 
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [0.5.0] - 2017-01-02
+### Added
+- src/day05/README.md
+- src/day05/FizzBuzz.php
+- tests/day05/FizzBuzzTest.php
+
 ## [0.4.1] - 2017-01-02
 ### Changed
 - old package name was `zeravcic\tdd_by_john-cleary`, new package name is `zeravcic\tdd-by-john-cleary` \[TDD problem with underscore (_) char\]
@@ -52,6 +58,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 ### Added
 -  Day-01 - SRC and TEST
 
+[0.5.0]: https://github.com/zeravcic/tdd-by-john-cleary/compare/v0.4.1...v0.5.0
 [0.4.1]: https://github.com/zeravcic/tdd-by-john-cleary/compare/v0.4.0...v0.4.1
 [0.4.0]: https://github.com/zeravcic/tdd-by-john-cleary/compare/v0.3.0...v0.4.0
 [0.3.0]: https://github.com/zeravcic/tdd-by-john-cleary/compare/v0.2.0...v0.3.0
