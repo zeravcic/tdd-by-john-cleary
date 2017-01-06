@@ -5,6 +5,15 @@ All Notable changes to `zeravcic\tdd-by-john-cleary` project will be documented 
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [0.7.0] - 2017-01-06
+### Added
+- src/day07/README.md
+- src/day07/InvalidValueException.php
+- src/day07/MapOfVariables.php
+- src/day07/TemplateEngine.php
+- tests/day06/MapOfVariablesTest.php
+- tests/day06/TemplateEngineTest.php
+
 ## [0.6.0] - 2017-01-02
 ### Added
 - src/day06/README.md
@@ -69,6 +78,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 ### Added
 -  Day-01 - SRC and TEST
 
+[0.7.0]: https://github.com/zeravcic/tdd-by-john-cleary/compare/v0.6.0...v0.7.0
 [0.6.0]: https://github.com/zeravcic/tdd-by-john-cleary/compare/v0.5.0...v0.6.0
 [0.5.0]: https://github.com/zeravcic/tdd-by-john-cleary/compare/v0.4.1...v0.5.0
 [0.4.1]: https://github.com/zeravcic/tdd-by-john-cleary/compare/v0.4.0...v0.4.1
